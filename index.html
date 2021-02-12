@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="assets/css/style.css" />
+		<title>Transparent Login Form</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="formBox">
+				<p class="formBox__greet">Welcome!</p>
+				<form class="form">
+					<div class="form__nameBox">
+						<label class="form__label" for="name">Username:</label>
+						<input
+							class="form__input input--name"
+							name="name"
+							type="name"
+							id="name"
+							placeholder="Pine, Sandalwood, etc"
+							required
+						/>
+					</div>
+					<div class="form__emailBox">
+						<label class="form__label" for="email">Email:</label>
+						<input
+							class="form__input input--email"
+							name="email"
+							type="email"
+							id="email"
+							placeholder="save@trees.com"
+							required
+						/>
+					</div>
+					<div class="form__passwordBox">
+						<label class="form__label" for="password">Password:</label>
+						<input
+							class="form__input input--password"
+							name="password"
+							type="password"
+							id="password"
+							placeholder="You are smart enough"
+							required
+						/>
+					</div>
+					<button type="submit" class="btn">Sign Up</button>
+				</form>
+			</div>
+		</div>
+		<!-- JavaScript -->
+		<script src="assets/js/app.js"></script>
+	</body>
+</html>

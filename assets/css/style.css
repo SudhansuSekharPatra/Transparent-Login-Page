@@ -1,0 +1,78 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+	color: #fff;
+}
+
+.wrapper {
+	height: 100vh;
+	background-image: url("../img/forest-bridge.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 2rem;
+}
+
+.formBox {
+	height: 420px;
+	width: 100%;
+	max-width: 450px;
+	background-color: rgba(0, 0, 0, 0.514);
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding: 1rem 1.5rem;
+}
+
+.form {
+	height: 293px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.formBox__greet {
+	font-size: 2rem;
+	text-align: center;
+}
+
+.form__label,
+.form__input {
+	letter-spacing: 1.5px;
+	width: 100%;
+	display: block;
+}
+
+.form__input {
+	background-color: rgba(0, 0, 0, 0.473);
+	border: 1px solid #fff;
+	border-radius: 2px;
+	outline: none;
+	padding: 0.3rem 0.8rem;
+	margin-top: 0.4rem;
+}
+
+.btn {
+	font-size: 1rem;
+	font-weight: 600;
+	letter-spacing: 1.5px;
+	height: 40px;
+	background-color: rgba(0, 0, 0, 0.473);
+	border: 1px solid #fff;
+	transition: 0.3s;
+	cursor: pointer;
+	margin-top: 2rem;
+}
+
+.btn:hover {
+	color: #000;
+	background-color: #fff;
+	outline: none;
+}
